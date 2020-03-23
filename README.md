@@ -2,7 +2,7 @@
 
 This is the working area for the individual Internet-Draft, "CoRE Working Group -- Overview".
 
-* [Editor's Copy](https://core-wg.github.io/overview/#go.draft-bormann-core-overview.html)
+* [Editor's Copy](https://core-wg.github.io/overview/#go.draft-bormann-core-overview.html)    [![Build Status](https://travis-ci.org/core-wg/overview.svg?branch=master)](https://travis-ci.org/core-wg/overview)
 * [Individual Draft](https://tools.ietf.org/html/draft-bormann-core-overview)
 * [Compare Editor's Copy to Individual Draft](https://core-wg.github.io/overview/#go.draft-bormann-core-overview.diff)
 
