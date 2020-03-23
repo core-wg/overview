@@ -22,7 +22,8 @@ date: 2020-03-23
 author:
 -
   name: Carsten Bormann
-  org: Universitaet Bremen TZI
+  org: Universität Bremen TZI
+  orgascii: Universitaet Bremen TZI
   street: Postfach 330440
   city: Bremen
   code: D-28359
@@ -40,6 +41,13 @@ author:
 The IETF "Constrained RESTful Environments" (CoRE) Working Group standardizes application layer protocols that can be used by resource-constrained devices, as can be found in the Internet of Things (IoT).  It is part of a cluster of about a dozen IETF WGs defining specifications for these environments.
 
 This short document provides an overview of the activies of the CoRE WG as of end of March, 2020.
+
+--- note_About_This_Document
+
+This document is not intended for publication as an RFC.  It provides
+a snapshot of the current status of the WG, fron the personal view of
+the authors.  The intention is to keep it updated, roughly once per
+physical IETF meeting (or its digital replacement).
 
 --- middle
 
