@@ -40,12 +40,12 @@ author:
 
 The IETF "Constrained RESTful Environments" (CoRE) Working Group standardizes application layer protocols that can be used by resource-constrained devices, as can be found in the Internet of Things (IoT).  It is part of a cluster of about a dozen IETF WGs defining specifications for these environments.
 
-This short document provides an overview of the activies of the CoRE WG as of end of March, 2020.
+This short document provides an overview of the activities of the CoRE WG as of end of March, 2020.
 
 --- note_About_This_Document
 
 This document is not intended for publication as an RFC.  It provides
-a snapshot of the current status of the WG, fron the personal view of
+a snapshot of the current status of the WG, from the personal view of
 the authors.  The intention is to keep it updated, roughly once per
 physical IETF meeting (or its digital replacement).
 
@@ -71,7 +71,7 @@ Security has always been a critical enabler for IoT.  Similar to the way the HTT
 Object Security for CoRE (OSCORE) now provides end-to-end security over proxy paths that may include both CoAP and HTTP {{?RFC8613}}.
 
 One interesting aspect of OSCORE is that it also supports group communication, as it occurs in multicasting requests to collect responses from a group of nodes.  CoAP has supported multicast requests from the outset, and {{?RFC7390}},
-Group Communication on top of IP multicast, provides additional specfication for this.  As DTLS only supports unicast, without a security architecture RFC 7390 was published an experimental RFC.  Work is now underway to revise this  RFC {{?I-D.dijk-core-groupcomm-bis}}, which includes making use of the capabilities provided by OSCORE for group communication {{?I-D.ietf-core-oscore-groupcomm}}.  Work is now under way in the CoRE, ACE, and LAKE working groups to complement this basis with additional specifications making use of OSCORE and CoAP group communication.
+Group Communication on top of IP multicast, provides additional specification for this.  As DTLS only supports unicast, without a security architecture RFC 7390 was published an experimental RFC.  Work is now underway to revise this  RFC {{?I-D.dijk-core-groupcomm-bis}}, which includes making use of the capabilities provided by OSCORE for group communication {{?I-D.ietf-core-oscore-groupcomm}}.  Work is now under way in the CoRE, ACE, and LAKE working groups to complement this basis with additional specifications making use of OSCORE and CoAP group communication.
 
 # Operations and Management
 
@@ -95,3 +95,8 @@ To follow and contribute to CoRE's work, please refer to the core status page (<
 
 Marco Tiloca provided comments on a draft of this document.
 
+
+<!--  LocalWords:  exploitability multicasting OSCORE CORECONF
+ -->
+<!--  LocalWords:  NETCONF
+ -->
