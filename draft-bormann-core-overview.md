@@ -29,10 +29,11 @@ author:
   country: Germany
   phone: +49-421-218-63921
   email: cabo@tzi.org
-- ins: J. J. Jimenez
-  name: Jaime Jimenez
-  org: Ericsson
-  email: jaime.jimenez@ericsson.com
+-
+  name: Jaime Jiménez
+  organization: Ericsson
+  phone: "+358-442-992-827"
+  email: jaime@iki.fi
 
 --- abstract
 
