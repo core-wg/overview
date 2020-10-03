@@ -18,7 +18,7 @@ pi:
   subcompact: 'no'
 title: CoRE Working Group — Overview
 abbrev: CoRE Working Group -- Overview
-date: 2020-03-23
+date: 2020-03-30
 author:
 -
   name: Carsten Bormann
@@ -71,7 +71,7 @@ Security has always been a critical enabler for IoT.  Similar to the way the HTT
 Object Security for CoRE (OSCORE) now provides end-to-end security over proxy paths that may include both CoAP and HTTP {{?RFC8613}}.
 
 One interesting aspect of OSCORE is that it also supports group communication, as it occurs in multicasting requests to collect responses from a group of nodes.  CoAP has supported multicast requests from the outset, and {{?RFC7390}},
-Group Communication on top of IP multicast, provides additional specification for this.  As DTLS only supports unicast, without a security architecture RFC 7390 was published an experimental RFC.  Work is now underway to revise this  RFC {{?I-D.dijk-core-groupcomm-bis}}, which includes making use of the capabilities provided by OSCORE for group communication {{?I-D.ietf-core-oscore-groupcomm}}.  Work is now under way in the CoRE, ACE, and LAKE working groups to complement this basis with additional specifications making use of OSCORE and CoAP group communication.
+Group Communication on top of IP multicast, provides additional specification for this.  As DTLS only supports unicast, without a security architecture RFC 7390 was published an experimental RFC.  Work is now underway to revise this  RFC {{?I-D.ietf-core-groupcomm-bis}}, which includes making use of the capabilities provided by OSCORE for group communication {{?I-D.ietf-core-oscore-groupcomm}}.  Work is now under way in the CoRE, ACE, and LAKE working groups to complement this basis with additional specifications making use of OSCORE and CoAP group communication.
 
 # Operations and Management
 
@@ -82,7 +82,7 @@ Constrained nodes also need management functions.  While many IoT SDOs are integ
 # Data Formats
 
 While CoAP can be used with many different data formats, a simple CoRE format for sensor and actuator data, Sensor Measurement Lists (SenML), was defined in {{?RFC8428}}.  Recently, a number of specifications have been readied in support of SenML that are now undergoing final processing by the RFC editor:  Support for the RFC 8132 verbs {{?I-D.ietf-core-senml-etch}}, and modifications to the SenML units registry {{?I-D.ietf-core-senml-more-units}} that make it more accessible as a basis for data format standards of other Standards Development Organizations (SDOs).
-A foundation for further data format specification that combines the web-linking approach of RFC 6690 with more modern data representation techniques is now being worked on under the name CoRAL {{?I-D.ietf-core-coral}}; application specifications such as CoAP pubsub {{?I-D.ietf-core-coap-pubsub}} are expected to pivot to this basis.
+A foundation for further data format specification that combines the web-linking approach of RFC 6690 with more modern data representation techniques is now being worked on under the name CoRAL {{?I-D.ietf-core-coral}} {{?I-D.ietf-core-href}}; application specifications such as CoAP pubsub {{?I-D.ietf-core-coap-pubsub}} are expected to pivot to this basis.
 
 # Further Information
 
