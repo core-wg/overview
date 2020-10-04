@@ -5,11 +5,11 @@
 Network Working Group                                         C. Bormann
 Internet-Draft                                    Universität Bremen TZI
 Intended status: Informational                                J. Jiménez
-Expires: 24 September 2020                                      Ericsson
-                                                           23 March 2020
+Expires: 1 October 2020                                         Ericsson
+                                                           30 March 2020
 
 
-                     CoRE Working Group -- Overview
+                     CoRE Working Group — Overview
                    draft-bormann-core-overview-latest
 
 Abstract
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 September 2020.
+   This Internet-Draft will expire on 1 October 2020.
 
 
 
@@ -53,7 +53,7 @@ Status of This Memo
 
 
 
-Bormann & Jiménez       Expires 24 September 2020               [Page 1]
+Bormann & Jiménez        Expires 1 October 2020                 [Page 1]
 
 Internet-Draft       CoRE Working Group -- Overview           March 2020
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Bormann & Jiménez       Expires 24 September 2020               [Page 2]
+Bormann & Jiménez        Expires 1 October 2020                 [Page 2]
 
 Internet-Draft       CoRE Working Group -- Overview           March 2020
 
@@ -148,7 +148,7 @@ Internet-Draft       CoRE Working Group -- Overview           March 2020
    of IP multicast, provides additional specification for this.  As DTLS
    only supports unicast, without a security architecture RFC 7390 was
    published an experimental RFC.  Work is now underway to revise this
-   RFC [I-D.dijk-core-groupcomm-bis], which includes making use of the
+   RFC [I-D.ietf-core-groupcomm-bis], which includes making use of the
    capabilities provided by OSCORE for group communication
    [I-D.ietf-core-oscore-groupcomm].  Work is now under way in the CoRE,
    ACE, and LAKE working groups to complement this basis with additional
@@ -165,7 +165,7 @@ Internet-Draft       CoRE Working Group -- Overview           March 2020
 
 
 
-Bormann & Jiménez       Expires 24 September 2020               [Page 3]
+Bormann & Jiménez        Expires 1 October 2020                 [Page 3]
 
 Internet-Draft       CoRE Working Group -- Overview           March 2020
 
@@ -193,9 +193,9 @@ Internet-Draft       CoRE Working Group -- Overview           March 2020
    Development Organizations (SDOs).  A foundation for further data
    format specification that combines the web-linking approach of RFC
    6690 with more modern data representation techniques is now being
-   worked on under the name CoRAL [I-D.ietf-core-coral]; application
-   specifications such as CoAP pubsub [I-D.ietf-core-coap-pubsub] are
-   expected to pivot to this basis.
+   worked on under the name CoRAL [I-D.ietf-core-coral]
+   [I-D.ietf-core-href]; application specifications such as CoAP pubsub
+   [I-D.ietf-core-coap-pubsub] are expected to pivot to this basis.
 
 6.  Further Information
 
@@ -207,28 +207,24 @@ Internet-Draft       CoRE Working Group -- Overview           March 2020
 
 7.  Informative References
 
-   [I-D.dijk-core-groupcomm-bis]
-              Dijk, E., Wang, C., and M. Tiloca, "Group Communication
-              for the Constrained Application Protocol (CoAP)", Work in
-              Progress, Internet-Draft, draft-dijk-core-groupcomm-bis-
-              03, 9 March 2020, <http://www.ietf.org/internet-drafts/
-              draft-dijk-core-groupcomm-bis-03.txt>.
-
    [I-D.ietf-core-coap-pubsub]
               Koster, M., Keranen, A., and J. Jimenez, "Publish-
               Subscribe Broker for the Constrained Application Protocol
               (CoAP)", Work in Progress, Internet-Draft, draft-ietf-
-
-
-
-Bormann & Jiménez       Expires 24 September 2020               [Page 4]
-
-Internet-Draft       CoRE Working Group -- Overview           March 2020
-
-
               core-coap-pubsub-09, 30 September 2019,
               <http://www.ietf.org/internet-drafts/draft-ietf-core-coap-
               pubsub-09.txt>.
+
+
+
+
+
+
+
+Bormann & Jiménez        Expires 1 October 2020                 [Page 4]
+
+Internet-Draft       CoRE Working Group -- Overview           March 2020
+
 
    [I-D.ietf-core-coral]
               Hartke, K., "The Constrained RESTful Application Language
@@ -239,23 +235,36 @@ Internet-Draft       CoRE Working Group -- Overview           March 2020
    [I-D.ietf-core-echo-request-tag]
               Amsuess, C., Mattsson, J., and G. Selander, "CoAP: Echo,
               Request-Tag, and Token Processing", Work in Progress,
-              Internet-Draft, draft-ietf-core-echo-request-tag-09, 9
-              March 2020, <http://www.ietf.org/internet-drafts/draft-
-              ietf-core-echo-request-tag-09.txt>.
+              Internet-Draft, draft-ietf-core-echo-request-tag-10, 13
+              July 2020, <http://www.ietf.org/internet-drafts/draft-
+              ietf-core-echo-request-tag-10.txt>.
+
+   [I-D.ietf-core-groupcomm-bis]
+              Dijk, E., Wang, C., and M. Tiloca, "Group Communication
+              for the Constrained Application Protocol (CoAP)", Work in
+              Progress, Internet-Draft, draft-ietf-core-groupcomm-bis-
+              01, 13 July 2020, <http://www.ietf.org/internet-drafts/
+              draft-ietf-core-groupcomm-bis-01.txt>.
+
+   [I-D.ietf-core-href]
+              Hartke, K., "Constrained Resource Identifiers", Work in
+              Progress, Internet-Draft, draft-ietf-core-href-03, 9 March
+              2020, <http://www.ietf.org/internet-drafts/draft-ietf-
+              core-href-03.txt>.
 
    [I-D.ietf-core-oscore-groupcomm]
               Tiloca, M., Selander, G., Palombini, F., and J. Park,
               "Group OSCORE - Secure Group Communication for CoAP", Work
               in Progress, Internet-Draft, draft-ietf-core-oscore-
-              groupcomm-07, 9 March 2020, <http://www.ietf.org/internet-
-              drafts/draft-ietf-core-oscore-groupcomm-07.txt>.
+              groupcomm-09, 23 June 2020, <http://www.ietf.org/internet-
+              drafts/draft-ietf-core-oscore-groupcomm-09.txt>.
 
    [I-D.ietf-core-resource-directory]
               Shelby, Z., Koster, M., Bormann, C., Stok, P., and C.
               Amsuess, "CoRE Resource Directory", Work in Progress,
-              Internet-Draft, draft-ietf-core-resource-directory-24, 9
-              March 2020, <http://www.ietf.org/internet-drafts/draft-
-              ietf-core-resource-directory-24.txt>.
+              Internet-Draft, draft-ietf-core-resource-directory-25, 13
+              July 2020, <http://www.ietf.org/internet-drafts/draft-
+              ietf-core-resource-directory-25.txt>.
 
    [I-D.ietf-core-senml-etch]
               Keranen, A. and M. Mohajer, "FETCH & PATCH with Sensor
@@ -263,6 +272,15 @@ Internet-Draft       CoRE Working Group -- Overview           March 2020
               Draft, draft-ietf-core-senml-etch-07, 9 March 2020,
               <http://www.ietf.org/internet-drafts/draft-ietf-core-
               senml-etch-07.txt>.
+
+
+
+
+
+Bormann & Jiménez        Expires 1 October 2020                 [Page 5]
+
+Internet-Draft       CoRE Working Group -- Overview           March 2020
+
 
    [I-D.ietf-core-senml-more-units]
               Bormann, C., "Additional Units for SenML", Work in
@@ -273,24 +291,16 @@ Internet-Draft       CoRE Working Group -- Overview           March 2020
    [I-D.ietf-core-stateless]
               Hartke, K., "Extended Tokens and Stateless Clients in the
               Constrained Application Protocol (CoAP)", Work in
-              Progress, Internet-Draft, draft-ietf-core-stateless-05, 12
-
-
-
-Bormann & Jiménez       Expires 24 September 2020               [Page 5]
-
-Internet-Draft       CoRE Working Group -- Overview           March 2020
-
-
-              March 2020, <http://www.ietf.org/internet-drafts/draft-
-              ietf-core-stateless-05.txt>.
+              Progress, Internet-Draft, draft-ietf-core-stateless-06, 12
+              April 2020, <http://www.ietf.org/internet-drafts/draft-
+              ietf-core-stateless-06.txt>.
 
    [I-D.ietf-core-yang-cbor]
               Veillette, M., Petrov, I., and A. Pelov, "CBOR Encoding of
               Data Modeled with YANG", Work in Progress, Internet-Draft,
-              draft-ietf-core-yang-cbor-12, 9 March 2020,
+              draft-ietf-core-yang-cbor-13, 4 July 2020,
               <http://www.ietf.org/internet-drafts/draft-ietf-core-yang-
-              cbor-12.txt>.
+              cbor-13.txt>.
 
    [I-D.ietf-dots-signal-channel]
               Reddy.K, T., Boucadair, M., Patil, P., Mortensen, A., and
@@ -319,6 +329,15 @@ Internet-Draft       CoRE Working Group -- Overview           March 2020
               DOI 10.17487/RFC7641, September 2015,
               <https://www.rfc-editor.org/info/rfc7641>.
 
+
+
+
+
+Bormann & Jiménez        Expires 1 October 2020                 [Page 6]
+
+Internet-Draft       CoRE Working Group -- Overview           March 2020
+
+
    [RFC7950]  Bjorklund, M., Ed., "The YANG 1.1 Data Modeling Language",
               RFC 7950, DOI 10.17487/RFC7950, August 2016,
               <https://www.rfc-editor.org/info/rfc7950>.
@@ -330,14 +349,6 @@ Internet-Draft       CoRE Working Group -- Overview           March 2020
 
    [RFC8132]  van der Stok, P., Bormann, C., and A. Sehgal, "PATCH and
               FETCH Methods for the Constrained Application Protocol
-
-
-
-Bormann & Jiménez       Expires 24 September 2020               [Page 6]
-
-Internet-Draft       CoRE Working Group -- Overview           March 2020
-
-
               (CoAP)", RFC 8132, DOI 10.17487/RFC8132, April 2017,
               <https://www.rfc-editor.org/info/rfc8132>.
 
@@ -375,6 +386,14 @@ Authors' Addresses
    Germany
 
    Phone: +49-421-218-63921
+
+
+
+Bormann & Jiménez        Expires 1 October 2020                 [Page 7]
+
+Internet-Draft       CoRE Working Group -- Overview           March 2020
+
+
    Email: cabo@tzi.org
 
 
@@ -389,4 +408,41 @@ Authors' Addresses
 
 
 
-Bormann & Jiménez       Expires 24 September 2020               [Page 7]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bormann & Jiménez        Expires 1 October 2020                 [Page 8]
